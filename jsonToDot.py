@@ -18,6 +18,7 @@ def extract(json_obj, pat):
 if __name__ == '__main__':
 
     input_file = sys.argv[1]
+
     with open(input_file, 'r') as f:
         json_file = json.load(f)
         extract(json_file, "")
